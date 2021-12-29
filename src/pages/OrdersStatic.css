@@ -1,0 +1,40 @@
+/* .table1{
+    margin-left: 50px;
+} */
+.color1{
+    /* text-align: center; */
+    color: #F8C562;
+    /* background-color: #FFF2DA; */
+    font-weight: bolder;
+    /* opacity: 0.8; */
+}
+.color11{
+    color: #F8C562;
+    font-weight: bolder;
+}
+.color2{
+   color:  #E1716B;
+   font-weight: bolder;
+}
+.color22{
+    color:  #E1716B;
+    font-weight: bolder;
+}
+.color3{
+    color:rgb(49,167,163);
+    font-weight: bolder;
+}
+.color33{
+    color:rgb(49,167,163);
+    font-weight: bolder;
+
+}
+@media only screen and (max-width:500px) {
+    .maincontainer{
+        display: block !important;
+    }
+    .col-2 {
+        flex: 0 0 auto !important;
+        width: 55.666667% !important;
+    }    
+}

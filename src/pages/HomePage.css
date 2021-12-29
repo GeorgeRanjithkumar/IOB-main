@@ -1,0 +1,387 @@
+.header-viewport {
+    background-image: url("../assets/homepage/banner/banner-bg.png");
+    padding: 1em 2em;
+    background-size: cover;
+}
+
+.searchInputHomeHeader {
+    width: 80%;
+}
+
+@media(max-width:1199px) {
+    .searchInputHomeHeader {
+        width: 100%!important;
+    }
+    .inputSearchForm {
+        justify-content: start!important;
+    }
+}
+
+.compoDiv {
+    padding: 3em 5em,
+}
+
+.data-strip-viewport {
+    background-color: #2e3650;
+    /* padding: 0.5em 2em; */
+    /* margin: 0em 0; */
+}
+
+.bitcoin-calculator-viewport {
+    padding: 0.5em 5em;
+    margin: 5em 0;
+}
+
+.affordable-packages-viewport {
+    margin-top: 10em;
+    padding: 0em 5em;
+}
+
+.backgroundHeading {
+    position: relative;
+    z-index: 1
+}
+
+.backgroundHeading::before {
+    content: "PACKAGES"!important;
+    margin: 0 auto;
+    position: absolute;
+    top: -160%;
+    font-size: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    width: 95%;
+    z-index: -1;
+    color: #F2F7FE;
+}
+
+.backgroundHeadingBuySell {
+    position: relative;
+    z-index: 1
+}
+
+.backgroundHeadingBuySell::before {
+    content: "BUY SELL"!important;
+    margin: 0 auto;
+    position: absolute;
+    top: -160%;
+    font-size: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    width: 95%;
+    z-index: -1;
+    color: #2C88DF;
+}
+
+.backgroundHeadingCorporateTeam {
+    position: relative;
+    z-index: 1
+}
+
+.backgroundHeadingCorporateTeam::before {
+    content: "CORPORATE"!important;
+    margin: 0 auto;
+    position: absolute;
+    top: -160%;
+    font-size: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    width: 95%;
+    z-index: -1;
+    color: #F2F7FE;
+}
+
+.backgroundHeadingImplementation {
+    position: relative;
+    z-index: 1
+}
+
+.backgroundHeadingImplementation::before {
+    content: "EXECUTION"!important;
+    margin: 0 auto;
+    position: absolute;
+    top: -160%;
+    font-size: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    width: 95%;
+    z-index: -1;
+    color: #2C88DF;
+}
+
+.crypto-market-viewport {
+    margin: 10em 0;
+    padding: 0em 2em;
+}
+
+.bg-blue-viewport {
+    margin: 10em 0;
+    padding: 0em 2em;
+    background-color: #0A7DE3;
+}
+
+.footer-viewport {
+    background-image: url("../assets/homepage/footer/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:576px) {
+    .footer-viewport {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #0A7DE3;
+    }
+    .footerBody {
+        padding: 0 0!important;
+    }
+    .footerRow {
+        margin-right: 0!important;
+        margin-left: 0!important;
+        padding: 20px!important
+    }
+    .copyrightRow {
+        margin-right: 0px!important;
+        margin-left: 0px!important;
+        display: flex;
+        justify-content: center;
+    }
+    .copyright {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .socialIcons {
+        display: flex;
+        justify-content: center!important;
+    }
+}
+
+@media (max-width:1200px) {
+    .bannerHeading {
+        font-size: 48px!important;
+    }
+}
+
+@media (max-width:991px) {
+    .bannerHeading {
+        font-size: 38px!important;
+    }
+}
+
+@media (max-width:768px) {
+    .bannerHeading {
+        font-size: 28px!important;
+    }
+    .compoDiv {
+        padding: 1.5em 1em!important;
+    }
+}
+
+@media (max-width:576px) {
+    .bannerHeading {
+        font-size: 24px!important;
+    }
+    .compoDiv {
+        padding: 1em 0.5em!important
+    }
+}
+
+@media (max-width:768px) {
+    .bannerTagline {
+        font-size: 24px!important;
+    }
+}
+
+@media (max-width:576px) {
+    .bannerTagline {
+        font-size: 22px!important;
+    }
+}
+
+
+/* hompage calculator css */
+
+@media (max-width:991px) {
+    .calculatorHeading {
+        font-size: 40px!important;
+    }
+    .crytoMarketHeading {
+        text-align: center!important;
+    }
+    .backgroundHeadingCorporateTeam::before {
+        content: "CORPORATE"!important;
+        margin: 0 auto;
+        position: absolute;
+        top: -160%;
+        font-size: 90px;
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        width: 95%;
+        z-index: -1;
+        color: #F2F7FE;
+    }
+}
+
+@media (max-width:768px) {
+    .calculatorHeading {
+        font-size: 34px!important;
+    }
+    .bitcoin-calculator-viewport {
+        padding: 0.5em 2em;
+        margin: 5em 0;
+    }
+    .affordable-packages-viewport {
+        margin-top: 10em;
+        padding: 0em 2em;
+    }
+    .crypto-market-viewport {
+        margin: 10em 0;
+        padding: 0em 2em;
+    }
+    .backgroundHeading::before {
+        content: "PACKAGES"!important;
+        margin: 0 auto;
+        position: absolute;
+        top: -160%;
+        font-size: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        width: 95%;
+        z-index: -1;
+        color: #F2F7FE;
+    }
+    .backgroundHeadingBuySell::before {
+        content: "BUY SELL"!important;
+        margin: 0 auto;
+        position: absolute;
+        top: -160%;
+        font-size: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        width: 95%;
+        z-index: -1;
+        color: #2C88DF;
+    }
+    .backgroundHeadingCorporateTeam::before {
+        content: "CORPORATE"!important;
+        margin: 0 auto;
+        position: absolute;
+        top: -160%;
+        font-size: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        width: 95%;
+        z-index: -1;
+        color: #F2F7FE;
+    }
+    .backgroundHeadingImplementation::before {
+        content: "EXECUTION"!important;
+        margin: 0 auto;
+        position: absolute;
+        top: -160%;
+        font-size: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        width: 95%;
+        z-index: -1;
+        color: #2C88DF;
+    }
+}
+
+@media (max-width:576px) {
+    .calculatorHeading {
+        font-size: 28px!important;
+    }
+    .backgroundHeading::before {
+        content: ""!important;
+        margin: 0 auto;
+        position: absolute;
+        top: -160%;
+        font-size: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        width: 95%;
+        z-index: -1;
+        color: #F2F7FE;
+    }
+    .backgroundHeadingBuySell::before {
+        content: ""!important;
+        margin: 0 auto;
+        position: absolute;
+        top: -160%;
+        font-size: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        width: 95%;
+        z-index: -1;
+        color: #2C88DF;
+    }
+    .backgroundHeadingCorporateTeam::before {
+        content: ""!important;
+        margin: 0 auto;
+        position: absolute;
+        top: -160%;
+        font-size: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        width: 95%;
+        z-index: -1;
+        color: #F2F7FE;
+    }
+    .backgroundHeadingImplementation::before {
+        content: ""!important;
+        margin: 0 auto;
+        position: absolute;
+        top: -160%;
+        font-size: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        width: 95%;
+        z-index: -1;
+        color: #2C88DF;
+    }
+}
+
+@media (max-width:768px) {
+    .calculatorTagline {
+        font-size: 16px!important;
+    }
+}
+
+
+/* stepper css */
+
+.stepper .lead {
+    font-size: 1.1rem;
+}
+
+.stepper h5 {
+    padding: 8px;
+}
+
+.rounded-circle {
+    background-color: #fff!important;
+    color: #0A7DE3!important;
+    font-weight: bold;
+}
+
+.stepper .line {
+    width: 2px;
+    background-color: #F2F7FE !important;
+    color: #0A7DE3;
+}

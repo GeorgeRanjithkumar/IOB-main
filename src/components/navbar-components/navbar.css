@@ -1,0 +1,26 @@
+.rounded {
+    border-radius: 0rem 0rem 3rem 3rem !important;
+}
+.onhover-change-navlink:hover{
+    color: blue !important;
+}
+.profile-navbar-lastsection-flex-change{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: end;
+    margin-left: 200px;
+    margin-top: -10px;
+}
+@media only screen and (max-width: 1230px){
+    .profile-navbar-lastsection-flex-change{
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .profile-navbar-lastsection-flex-change{
+        margin-left: auto;
+    }
+}
