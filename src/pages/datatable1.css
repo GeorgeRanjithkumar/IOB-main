@@ -1,0 +1,67 @@
+table.mdb-dataTable thead, table thead.mdb-dataTable-head {
+    cursor: pointer;
+    color: #4996e1;
+}
+.delivered{
+    /* text-align: center; */
+    color: #F8C562 !important;
+    /* background-color: #FFF2DA; */
+    font-weight: bolder !important;
+    /* opacity: 0.8; */
+}
+.color11{
+    color: #F8C562;
+    font-weight: bolder;
+}
+.cancelled{
+   color:  #E1716B;
+   font-weight: bolder;
+}
+.color22{
+    color:  #E1716B;
+    font-weight: bolder;
+}
+.booked{
+    color:rgb(49,167,163);
+    font-weight: bolder;
+}
+.color33{
+    color:rgb(49,167,163);
+    font-weight: bolder;
+}
+
+.btn-secondary.dropdown-toggle {
+    background-color: white !important;
+}
+/* .filters{
+    background-color: white !important;
+    color: black;
+} */
+/* BOOTSTRAP CLASS */
+.react-date-picker__wrapper{
+    border: none !important;
+}
+@media only screen and (max-width:500px) {
+    .maincontainer{
+        display: block !important;
+    }
+    .col-2 {
+        flex: 0 0 auto !important;
+        width: 55.666667% !important;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:530px){
+    .datatable1 .label{
+        width: 90% !important;
+    }
+}

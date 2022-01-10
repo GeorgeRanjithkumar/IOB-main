@@ -12,13 +12,13 @@ const profile = () => {
       {/* <MainHeader /> */}
       <Navbar/>
       <div class="shadow-lg p-3 mb-5 bg-white rounded">
-            <h4>Edit Profile</h4>
-        <div className="card" style={{padding:'10%'}}>
+        <div className="card">
           <div className="card-body">
+          <h4>Edit Profile</h4>
             <div className="py-5 px-5" id="maincontainer">
               <div className="col-4 picContainer" style={{ textAlign: "center" }}>
                 <img
-                  src="https://m.economictimes.com/thumb/msid-67467301,resizemode-4,imgsize-575034/hrithik-roshan.jpg"
+                  src="https://lumiere-a.akamaihd.net/v1/images/character_princess_rapunzel_8320d57a.jpeg?region=0%2C0%2C563%2C300"
                   // class="img-thumbnail"
                   class="img-responsive"
                   alt="Avatar"
@@ -152,7 +152,7 @@ const profile = () => {
                     />
                   </div>
                   <br />
-                  <div >
+                  <div className="placewidth">
                     <h5>Date Of Birth</h5>
                     {/* <form action="/action_page.php"/> */}
                     <input className="placewidth"
@@ -212,7 +212,7 @@ const profile = () => {
             </div>
             <button
                   style={{
-                    width: '23%',
+                    width: '25%',
                     borderRadius: 15,
                     marginLeft:'60%'
                    

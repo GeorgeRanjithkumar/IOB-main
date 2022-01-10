@@ -26,12 +26,16 @@ import KycSuccess from "./pages/KycSuccess";
 import Profile from "./pages/Profile";
 import Navbar from "./components/navbar-components/navbar"
 import OrdersStatic from "./pages/OrdersStatic";
+import Datatable from "./pages/datatable";
+import Datatable1 from "./pages/datatable1";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<OrdersStatic/>}/>
+        {/* <Route path="/" element={<OrdersStatic/>}/> */}
+        {/* <Route path="/" element={<Datatable/>}/> */}
+        <Route path="/" element={<Datatable1/>}/>
         {/* <Route path="/" element={<Navbar/>}/> */}
         {/* <Route path="/" element={<Profile/>}/> */}
         {/* <Route path="/" element={<HomePage />} />
